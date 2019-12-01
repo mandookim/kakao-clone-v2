@@ -15,14 +15,16 @@
   </head>
   <body>
     <div class="status-bar">
-      <div class="status-bar__column"></div>
-      <span class="status-bar__clock">13:54 </span>
-      <div class="status-bar__column"></div>
-      <i class="fas fa-clock"></i>
-      <i class="fas fa-volume-mute"></i>
-      <i class="fas fa-wifi"></i>
-      <span class="status-bar__battery-level">100%</span>
-      <i class="fas fa-battery-full"></i>
+      <div class="status-bar__column">
+        <span class="status-bar__clock">13:54 </span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-clock"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
     </div>
     <header class="header">
       <div class="header__header-column">
@@ -41,7 +43,7 @@
       <header class="friends_header">
         <div class="friends__friend friend friend--lg">
           <div class="friend__column">
-            <img src="images/avatar.jpg" class="g-avatar frend__avatar" />
+            <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Minju Kim
@@ -56,8 +58,8 @@
       <div class="friends__plus">
         <h5 class="friends__title">Plus friend</h5>
         <div class="friends__friend friend">
-          <div class="friend_column">
-            <img src="images/avatar.jpg" class="g-avatar frend__avatar" />
+          <div class="friend__column">
+            <img src="images/avatar.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Plus Friend
@@ -69,22 +71,20 @@
       <ul class="friends__list">
         <h5 class="friends__title">Friends 14</h5>
         <li class="friends__friend friend friend--lg">
-          <div class="friend__coulumn">
-            <img src="images/avatar.jpg" class="g-avatar frend__avatar" />
+          <div class="friend__column">
+            <img src="images/avatar.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Minju Kim
               </span>
-              <span class="friend__status">
-                I want to travel anywhere
-              </span>
             </div>
           </div>
-          <div class="friend__column"></div>
-          <div class="friend__now-listening">
-            <span>
-              FTISLAND (FT MINJUKIM)
-            </span>
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span>
+                FTISLAND (FT MINJUKIM)
+              </span>
+            </div>
           </div>
         </li>
       </ul>
