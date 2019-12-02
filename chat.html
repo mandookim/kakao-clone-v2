@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Chat | Kakao Clone</title>
   </head>
-  <body>
+  <body class="chats-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:54 </span>
@@ -42,21 +42,39 @@
         </span>
       </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
         <span class="chat__timestamp">Thursday, November 28, 2019</span>
         <li class="incoming-message message">
           <img src="images/avatar.jpg" class="m-avatar message__avatar" />
           <div class="message__content">
-            <span class="message__author">Donghyeon</span>
-            <div class="message__bubble">Do you have time tonight?</div>
+            <div class="message__bubble">강원대학교 홈페이지 좀 알려줄래??</div>
+            <span class="message__author">남시병 교수님</span>
           </div>
-          <span class="message__timestamp"></span>
         </li>
-        <li class="incoming__message">
+        <li class="sent-message message">
           <div class="message__content">
-            <span class="message__timestamp"></span>
-            <div class="message__bubble">of course, I would be free</div>
+            <div class="message__bubble">
+              <a href="http://www.kangwon.ac.kr/www/index.do"
+                >http://www.kangwon.ac.kr/www/index.do 입니다!</a
+              >
+            </div>
+          </div>
+        </li>
+        <li class="incoming-message message">
+          <img src="images/avatar.jpg" class="m-avatar message__avatar" />
+          <div class="message__content">
+            <div class="message__bubble">강원대학교 홈페이지 좀 알려줄래??</div>
+            <span class="message__author">남시병 교수님</span>
+          </div>
+        </li>
+        <li class="sent-message message">
+          <div class="message__content">
+            <div class="message__bubble">
+              <a href="http://www.kangwon.ac.kr/www/index.do"
+                >http://www.kangwon.ac.kr/www/index.do 입니다!</a
+              >
+            </div>
           </div>
         </li>
       </ul>
@@ -79,29 +97,5 @@
         ></span>
       </div>
     </div>
-    <main class="settings">
-      <section class="settings__settings">
-        <ul class="settings__list">
-          <li class="settings__setting">
-            <span class="settings__icon">
-              <i class="fas fa-lock"></i>
-            </span>
-            <span class="settings__title">Pribacy</span>
-          </li>
-          <li class="settings__icon">
-            <span class="settings__icon">
-              <i class="far fa-bell"></i>
-            </span>
-            <span class="settings__title">Notifications </span>
-          </li>
-          <li class="setting__setting">
-            <span class="settings__icon">
-              <i class="far fa-user"></i>
-            </span>
-            <span class="settings__title">Friends</span>
-          </li>
-        </ul>
-      </section>
-    </main>
   </body>
 </html>
